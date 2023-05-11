@@ -1,0 +1,141 @@
+{
+  "plugins": [
+    "react"
+  ],
+  "extends": [
+    "../.eslintrc",
+    "plugin:react/recommended",
+    "plugin:react/jsx-runtime"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "rules": {
+    "strict": [
+      "error",
+      "safe"
+    ],
+    "no-console": [
+      "warn",
+      {
+        "allow": [
+          "warn",
+          "error"
+        ]
+      }
+    ],
+    "camelcase": "error",
+    "react/prefer-es6-class": "warn",
+    "react/display-name": "off",
+    "react/no-deprecated": "error",
+    "react/jsx-curly-spacing": [
+      "error",
+      {
+        "when": "never",
+        "allowMultiline": true,
+        "objectLiterals": "never"
+      }
+    ],
+    "react/jsx-tag-spacing": [
+      "error",
+      {
+        "closingSlash": "never",
+        "beforeSelfClosing": "always",
+        "afterOpening": "never",
+        "beforeClosing": "never"
+      }
+    ],
+    "react/jsx-curly-newline": [
+      "error",
+      {
+        "multiline": "require"
+      }
+    ],
+    "react/jsx-first-prop-new-line": [
+      "error",
+      "multiline-multiprop"
+    ],
+    "react/jsx-max-props-per-line": "error",
+    "react/jsx-one-expression-per-line": [
+      "error",
+      {
+        "allow": "single-child"
+      }
+    ],
+    "react/jsx-props-no-multi-spaces": "error",
+    "react/jsx-wrap-multilines": [
+      "error",
+      {
+        "declaration": "parens-new-line",
+        "assignment": "parens-new-line",
+        "return": "parens-new-line",
+        "arrow": "parens-new-line",
+        "condition": "parens-new-line",
+        "logical": "parens-new-line",
+        "prop": "parens-new-line"
+      }
+    ],
+    "react/jsx-closing-bracket-location": [
+      "error",
+      {
+        "nonEmpty": "tag-aligned",
+        "selfClosing": "tag-aligned"
+      }
+    ],
+    "react/jsx-equals-spacing": [
+      2,
+      "never"
+    ],
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".test.tsx",
+          ".tsx"
+        ]
+      }
+    ],
+    "react/jsx-indent": [
+      "error",
+      2
+    ],
+    "react/jsx-indent-props": [
+      "error",
+      "first"
+    ],
+    "react/jsx-key": [
+      "error",
+      {
+        "checkKeyMustBeforeSpread": true
+      }
+    ],
+    "react/jsx-no-duplicate-props": "error",
+    "react/jsx-no-useless-fragment": "error",
+    "react/jsx-sort-props": [
+      "error",
+      {
+        "reservedFirst": true
+      }
+    ],
+    "react/no-unknown-property": "error",
+    "react/self-closing-comp": "error",
+    "no-restricted-syntax": ["error", {
+      "selector": "ExportDefaultDeclaration",
+      "message": "Prefer named exports"
+    }],
+    "react/react-in-jsx-scope": "off",
+    "object-property-newline": [
+      "error",
+      {
+        "allowMultiplePropertiesPerLine": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "name": "usePolling",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Api polling hook for react",
+  "license": "MIT",
+  "main": "dist/usePolling.js",
+  "module": "dist/esm/usePolling.js",
+  "types": "dist/types/usePolling.d.ts",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build:cjs": "tsc",
+    "build:esm": "tsc --outDir dist/esm --module esnext --target esnext",
+    "build": "yarn clean && yarn build:cjs && yarn build:esm",
+    "dev": "tsc --watch",
+    "lint": "eslint . --ext .ts,.tsx",
+    "lint:fix": "eslint . --ext .ts,.tsx --fix",
+    "test": "jest -c=config/jest.config.ts --colors -ew --errorOnDeprecated --coverage",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@types/enzyme": "^3.10.12",
+    "@types/jest": "^29.4.4",
+    "@types/node": "^18.15.3",
+    "@types/react": "^17.0.53",
+    "@types/react-dom": "^17.0.19",
+    "@typescript-eslint/eslint-plugin": "^5.55.0",
+    "@typescript-eslint/parser": "^5.55.0",
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.8.0",
+    "core-js": "^3.30.0",
+    "enzyme": "^3.11.0",
+    "eslint": "^8.36.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "flush-promises": "^1.0.2",
+    "husky": "^8.0.3",
+    "jest": "^29.5.0",
+    "jest-environment-jsdom": "^29.5.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rimraf": "^4.4.1",
+    "ts-jest": "^29.0.5",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.2"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
