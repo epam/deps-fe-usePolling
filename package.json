@@ -1,6 +1,6 @@
 {
-  "name": "use-polling_test",
-  "version": "0.0.3",
+  "name": "use-raf-polling",
+  "version": "1.0.0",
   "private": false,
   "description": "Api polling hook for react",
   "license": "MIT",
@@ -23,7 +23,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/epam/deps-fe-usePolling.git#13266-pack-and-deploy-npm-module"
+    "url": "git+https://github.com/epam/deps-fe-usePolling.git"
   },
   "bugs": {
     "url": "https://github.com/epam/deps-fe-usePolling/issues"
