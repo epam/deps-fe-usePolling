@@ -1,7 +1,7 @@
 {
   "name": "use-polling_test",
   "version": "0.0.1",
-  "private": true,
+  "private": false,
   "description": "Api polling hook for react",
   "license": "MIT",
   "main": "dist/usePolling.js",
