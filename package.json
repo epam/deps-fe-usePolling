@@ -1,12 +1,12 @@
 {
   "name": "use-polling_test",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": false,
   "description": "Api polling hook for react",
   "license": "MIT",
-  "main": "dist/usePolling.js",
-  "module": "dist/esm/usePolling.js",
-  "types": "dist/types/usePolling.d.ts",
+  "main": "dist/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/types/index.d.ts",
   "scripts": {
     "clean": "rimraf dist",
     "build:cjs": "tsc",
