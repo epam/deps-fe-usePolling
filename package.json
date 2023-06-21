@@ -1,12 +1,12 @@
 {
-  "name": "usePolling",
-  "version": "0.0.1",
-  "private": true,
+  "name": "use-raf-polling",
+  "version": "1.0.0",
+  "private": false,
   "description": "Api polling hook for react",
   "license": "MIT",
-  "main": "dist/usePolling.js",
-  "module": "dist/esm/usePolling.js",
-  "types": "dist/types/usePolling.d.ts",
+  "main": "dist/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/types/index.d.ts",
   "scripts": {
     "clean": "rimraf dist",
     "build:cjs": "tsc",
@@ -18,6 +18,17 @@
     "test": "jest -c=config/jest.config.ts --colors -ew --errorOnDeprecated --coverage",
     "prepare": "husky install"
   },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epam/deps-fe-usePolling.git"
+  },
+  "bugs": {
+    "url": "https://github.com/epam/deps-fe-usePolling/issues"
+  },
+  "homepage": "https://github.com/epam/deps-fe-usePolling#readme",
   "devDependencies": {
     "@types/enzyme": "^3.10.12",
     "@types/jest": "^29.4.4",
