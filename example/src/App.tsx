@@ -1,7 +1,7 @@
 import React, { useCallback, useState } from 'react'
 import './App.css'
 import axios from "axios";
-import { usePolling } from 'usePolling'
+import { usePolling } from 'use-raf-polling'
 
 const POLLING_INTERVAL = 2_000
 const MAX_ITEMS_LENGTH = 15

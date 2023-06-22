@@ -29,6 +29,13 @@
     "url": "https://github.com/epam/deps-fe-usePolling/issues"
   },
   "homepage": "https://github.com/epam/deps-fe-usePolling#readme",
+  "keywords": [
+    "react",
+    "hook",
+    "polling",
+    "poller",
+    "requestAnimationFrame"
+  ],
   "devDependencies": {
     "@types/enzyme": "^3.10.12",
     "@types/jest": "^29.4.4",
