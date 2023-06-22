@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/epam/deps-fe-usePolling/static/css/main.d0fb6b15.css",
-    "main.js": "/epam/deps-fe-usePolling/static/js/main.499a9692.js",
-    "index.html": "/epam/deps-fe-usePolling/index.html",
-    "main.d0fb6b15.css.map": "/epam/deps-fe-usePolling/static/css/main.d0fb6b15.css.map",
-    "main.499a9692.js.map": "/epam/deps-fe-usePolling/static/js/main.499a9692.js.map"
+    "main.css": "/deps-fe-usePolling/static/css/main.d0fb6b15.css",
+    "main.js": "/deps-fe-usePolling/static/js/main.499a9692.js",
+    "index.html": "/deps-fe-usePolling/index.html",
+    "main.d0fb6b15.css.map": "/deps-fe-usePolling/static/css/main.d0fb6b15.css.map",
+    "main.499a9692.js.map": "/deps-fe-usePolling/static/js/main.499a9692.js.map"
   },
   "entrypoints": [
     "static/css/main.d0fb6b15.css",
