@@ -56,7 +56,7 @@ const MyComponent = () => {
 }
 ```
 
-For more information of usage, please refer to the [example](https://github.com/example/example) folder.  
+For more information of usage, please refer to the [example](https://github.com/epam/deps-fe-usePolling/tree/main/example) folder.  
 Also, check the [demo](https://epam.github.io/deps-fe-usePolling/index.html).
 
 ## Installation
